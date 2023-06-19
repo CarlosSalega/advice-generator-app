@@ -4,12 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        DarkGray: "#493843",
-        DarkGreen: "#61988E",
-        LightGreen: "#A0B2A6",
-        Gray: "#CBBFBB",
-        LightGray: "#ECEBF3",
-        Clean: "#EABDA8",
+        Glaucous: "#287fb8",
+        Powder: "#FAFFFD",
+        Onyx: "#223944",
+        Gray: "#2b3d4f",
       },
       fontFamily: {
         Manrope: [
