@@ -8,6 +8,7 @@ export default {
         Powder: "#FAFFFD",
         Onyx: "#223944",
         Gray: "#2b3d4f",
+        Sha: "#1c5d8d",
       },
       fontFamily: {
         Manrope: [

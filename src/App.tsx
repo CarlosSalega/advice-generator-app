@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { RiAiGenerate } from "react-icons/ri";
 
 interface adviceData {
   slip: {
@@ -38,18 +39,18 @@ function App(): JSX.Element {
 
   return (
     <main className="font-Manrope bg-Gray min-h-screen flex items-center justify-center">
-      <article className="bg-Onyx w-96 h-96 rounded-xl p-8 flex items-center justify-center flex-col">
-        <h2 className="text-Glaucous mb-4">
+      <article className="bg-Onyx w-96 rounded-xl p-8 flex items-center justify-center flex-col h-72">
+        <h2 className="text-Glaucous">
           Tip #<span>{randomId}</span>
         </h2>
         <div className="h-40 flex items-center">
           <p className="text-Powder text-center">{advice}</p>
         </div>
         <button
-          className="text-Powder cursor-pointer bg-Glaucous px-4 py-2 rounded-md mt-4"
+          className={`text-Powder cursor-pointer bg-Glaucous px-4 py-2 rounded-md hover:bg-Sha`}
           onClick={handleClick}
         >
-          Next
+          {<RiAiGenerate />}
         </button>
       </article>
     </main>
